@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+}
+.container{
+    max-width: 900px;
+}
+#imagen.main{
+    width: 400px;
+}
+#logo{
+    width: 48px;
+    height: 48px;
+}
