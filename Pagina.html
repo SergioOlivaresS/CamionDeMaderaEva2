@@ -12,14 +12,14 @@
 <body>
     <header>
         <div class="navbar navbar-dark bg-primary" >    
-          <img src="./assets/logo camion.png" id="logo-camion">  
-            <div class="container d-flex justify-content-end">
-                <div class="d-flex justify-content-end" id="filas"></div>
-                            <a class="nav-link text-white" href="#somosmenu">Nosotros </a>
-                            <a class="nav-link text-white" href="#tablas-menu" >Tablas</a>
-                            <a class="nav-link text-white" href="#tercero"> Tercero</a>
-                            <a class="nav-link text-white" href="#pedido-menu" >Pedidos</a>
-                            <a class="nav-link text-white" href="#contacto" >contactos</a>       
+          <img src="./assets/newlogo.png" id="logo-camion">  
+            <div class="d-flex justify-content-sm-end">
+                <div class="d-flex justify-content-sm-end" id="filas"></div>
+                            <a class="nav-link text-white" href="#somosmenu"><h4>Nosotros</h4></a>
+                            <a class="nav-link text-white" href="#ofrecemos" ><h4>Que Ofrecemos</h4></a>
+                            <a class="nav-link text-white" href="#producto"> <h4>Productos</h4></a>
+                            <a class="nav-link text-white" href="#pedido" ><h4>Pedidos</h4></a>
+                            <a class="nav-link text-white" href="#contacto" ><h4>Contactos</h4></a>       
             </div>
         </div>
     </header>    
@@ -37,40 +37,46 @@
 
             <div class="row flex-row-reverse mt-5 mb-6"> 
                 <div class="col-md-6 text-center">
-                    <img src="./assets/tabla.png" alt="tabla" id="tablas-menu">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" allowfullscreen></iframe>
+                  </div>
             </div>
 
             <div class="col-md-6 text-center my-auto mt-5 mb-6">
+                    <h1 class="font-weight-bold">Que Ofrecemos</h1>
+                    <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p>         
+            </div>   
+            
+           
+            <div class=" container mt-5 mb-5">
+              <div class="text-center my-auto">
                     <h1 class="font-weight-bold">Productos</h1>
                     <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p> 
-            </div>   
-
-            <div class="row"> 
-                <div class="col-md-6 text-center mt-5 mb-6">
-                    <img src="./assets/logo camion.png" alt="que hacemos" id="tercero">
+            </div> 
+            <div class="container text-center">
+            <img src="./assets/Captura de pantalla 2023-05-01 001820.png" alt="" id="img-producto">
+            <img src="./assets/Captura de pantalla 2023-05-01 001828.png" alt="" id="img-producto">
+            <img src="./assets/Captura de pantalla 2023-05-01 001841.png" alt="" id="img-producto">
+            <img src="./assets/Captura de pantalla 2023-05-01 001848.png" alt="" id="img-producto">
             </div>
 
-                <div class="col-md-6 text-center my-auto mt-5 mb-6 ">
-                    <h1 class="font-weight-bold">otra cosa</h1>
-                    <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p> 
-            </div> 
             
             <div class=" container mt-5 mb-5">
             <div class="text-center my-auto">
-            <h1 class="font-weight-bold"> Pedidos</h1>
+            <h1 class="font-weight-bold" id="pedido"> Pedidos</h1>
             <p>Si desea solicitar algunos de nuestros productos o cotizar uno personalizado envienos su informacion atraves de este apartado.</p>
               </div>
             <div class="container">
             <div class="d-flex justify-content-center mt-5 mb-6">
-            <div class="row">
+            <div class="row col-md-9">
               <div class="col-md-10 mb-5">
-                <div class="card mb-7">
-                  <div class="card-header py-5">
-                    <h5 class="mb-0" id="pedido-menu">Pedido</h5>
+                <div class="card mb-9">
+                  <div class="card-header py-4">
+                    <h5 class="mb-0">Pedido</h5>
                   </div>
                   <div class="card-body">
                     <form>
-                      <div class="row mb-6">
+                      <div class="row mb-6 ">
                         <div class="col">
                           <div class="form-outline">
                             <input type="text" id="form7Example1" class="form-control" placeholder="Diego" />
@@ -109,6 +115,7 @@
                         </button>
                       </div>
                     </form>
+                    
                   </div>
                 </div>
               </div>
@@ -148,7 +155,7 @@
                     </div>
 
                 </div>
-            </div>
+              </div>
         </div>
     </footer>
 
@@ -159,3 +166,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+

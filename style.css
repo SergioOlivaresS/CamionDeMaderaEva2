@@ -1,5 +1,5 @@
 img{
-    width: 400px;
+    width: 600px;
 }
 .container{
     max-width: 1300px;
@@ -10,5 +10,9 @@ img{
     height: 48px;
 }
 #logo-camion{
-    max-width: 100px;
+    max-width: 80px;
+}
+
+#img-producto{
+    width: 300px;
 }
