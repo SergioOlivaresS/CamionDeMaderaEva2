@@ -10,50 +10,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  
-    <header>
-      <a href="#" class="logo"></a>
-      <nav>
-        <ul>
-          <li><a href="#somosmenu">Nosotros</a></li>
-          <li><a href="#ofrecemos" >Que Ofrecemos</a></li>
-          <li><a href="#producto">Productos</a></li>
-          <li><a href="#pedido">Pedidos</a></li>
-          <li><a href="#contacto">Contactos</a></li>
-        </ul>
+    <header class="bg-dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#somosmenu">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ofrecemos">Que Ofrecemos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#producto">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pedido">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-     
     </header>    
     </div>
     <main class="container">
         <div class="row"> 
-            <div class="col-md-6 text-center mt-5 mb-5">
+            <div class="col-md-7 text-center mt-5 mb-5">
                 <img src="./assets/somos.png" alt="Nosotros" id="somosmenu">
             </div>
 
-            <div class="col-md-6 text-center my-auto mt-5 mb-5">
+            <div class="col-md-5 text-center my-auto mt-5 mb-5">
                 <h1 class="font-weight-bold">Conocenos</h1>
-                <p>Somos una pequeño emprendimiento que blablablabla.</p> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus labore nemo consequatur voluptates. Voluptatum unde eligendi iusto nesciunt cumque quo atque odio libero dignissimos error, reprehenderit magni exercitationem consequatur nostrum?.</p> 
             </div>
 
             <div class="row flex-row-reverse mt-5 mb-5"> 
                 <div class="col-md-6 text-center">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" allowfullscreen></iframe> 
+                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" height="500px" allowfullscreen></iframe> 
                   </div>
             </div>
 
             <div class="col-md-6 text-center my-auto mt-5 mb-5">
                     <h1 class="font-weight-bold" id="ofrecemos">Que Ofrecemos</h1>
-                    <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p>         
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa repellendus maxime cum totam, natus blanditiis officiis, quibusdam labore omnis consequatur officia asperiores unde aliquid ut praesentium sed dolorem deleniti molestiae?</p>         
             </div>   
             
            
             <div class=" container mt-5 mb-5">
               <div class="text-center my-auto">
                     <h1 class="font-weight-bold" id="producto">Productos</h1>
-                    <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, suscipit ipsum harum sapiente, eveniet quaerat corrupti reiciendis nesciunt sequi nisi ratione tenetur maxime consequuntur non dignissimos obcaecati provident maiores repudiandae.</p> 
             </div> 
             <div class="container text-center">
             <img src="./assets/Captura de pantalla 2023-05-01 001820.png" alt="" id="img-producto">
@@ -61,12 +75,11 @@
             <img src="./assets/Captura de pantalla 2023-05-01 001841.png" alt="" id="img-producto">
             <img src="./assets/Captura de pantalla 2023-05-01 001848.png" alt="" id="img-producto">
             </div>
-
-            
+        
             <div class=" container mt-5 mb-5">
             <div class="text-center my-auto">
             <h1 class="font-weight-bold" id="pedido"> Pedidos</h1>
-            <p>Si desea solicitar algunos de nuestros productos o cotizar uno personalizado envienos su informacion atraves de este apartado.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam accusantium impedit assumenda maxime, nam, harum dicta, mollitia natus necessitatibus cupiditate corrupti temporibus. Assumenda sequi nisi magni perspiciatis nesciunt quibusdam nihil..</p>
               </div>
             <div class="container">
             <div class="d-flex justify-content-center mt-5 mb-6">
@@ -78,39 +91,39 @@
                   </div>
                   <div class="card-body">
                     <form>
-                      <div class="row mb-6 ">
+                      <div class="row mb-4 mt-3 ">
                         <div class="col">
                           <div class="form-outline">
-                            <input type="text" id="form7Example1" class="form-control" placeholder="Diego" />
-                            <label class="form-label" for="form7Example1">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Diego" />
+                            <label class="form-label">Nombre</label>
                           </div>
                         </div>
                         <div class="col">
                           <div class="form-outline">
-                            <input type="text" id="form7Example2" class="form-control" placeholder="Tapia"/>
-                            <label class="form-label" for="form7Example2">Apellido</label>
+                            <input type="text" class="form-control" placeholder="Tapia"/>
+                            <label class="form-label">Apellido</label>
                           </div>
                         </div>
                       </div>       
                       
                       <div class="form-outline mb-4">
-                        <input type="text" id="form7Example4" class="form-control" placeholder="colo colo 1234" />
-                        <label class="form-label" for="form7Example4">Direccion</label>
+                        <input type="text" class="form-control" placeholder="colo colo 1234" />
+                        <label class="form-label">Direccion</label>
                       </div>
           
                       <div class="form-outline mb-4">
-                        <input type="email" id="form7Example5" class="form-control" placeholder="ejemplo@gmail.com" />
-                        <label class="form-label" for="form7Example5">Email</label>
+                        <input type="email"class="form-control" placeholder="ejemplo@gmail.com" />
+                        <label class="form-label">Email</label>
                       </div>
 
                       <div class="form-outline mb-4">
-                        <input type="tel" id="form7Example5" class="form-control" placeholder="(+56)987654321 " />
-                        <label class="form-label" for="form7Example5">Telefono</label>
+                        <input type="tel"class="form-control" placeholder="(+56)987654321 " />
+                        <label class="form-label">Telefono</label>
                       </div>
                     
                       <div class="form-outline mb-4">
-                        <textarea class="form-control" id="form7Example7" rows="4"></textarea>
-                        <label class="form-label" for="form7Example7">Informacion adicional sobre el pedido</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                        <label class="form-label">Informacion adicional sobre el pedido</label>
                       </div>
                         <button type="button" class="btn btn-primary btn-lg btn-block">
                           Enviar
@@ -124,45 +137,55 @@
           </div>
 
     </main>
-    <footer class=" navbar navbar-dark bg-info">
-        <H1>Contactos</H1>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row"> 
-                        <div class="card mb-2" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img src="./assets/Jean.jpg" class="img-fluid rounded-start" width="360" height="360" id="contacto">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">Jean Sepulveda</h5>
-                                  <p class="card-text">Creador y constructor de Camion de Madera .</p>
-                                  <p class="card-text"><small class="text-body-secondary"></small></p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
+    <footer>
+      <div class="container-fluid">
 
-                </div>
-                <div class="col-md-6">
-                    <div>
-                        <h4>Siganos tambien en nuestras redes sociales para estar al tanto del proceso de su pedido.</h4>
-                        <a href="https://www.instagram.com/camiondemadera/"><img border="5" src="./assets/insta.png" id="logo"></a>
-                        <a href="https://www.tiktok.com/@camiondemadera"><img src="./assets/tiktok.png" id="logo"> </a>
-                        <a href="https://twitter.com/JeanSeplveda2"><img src="./assets/twitter.png" id="logo"> </a>
-                
-                    </div>
+        <div class="row p-5 bg-dark text-white">
 
-                </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <img src="./assets/newlogo.png" alt="logoempresa" id="logoempresa">
+          </div>
+         
+         <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Links</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Terminos & Condiciones</a>
               </div>
+              <div class="mb-2">
+                <a class="text-secondary text-decoration-none" href="#">Politicas De Privacidad</a>
+              </div>
+         </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3" id="contacto">Contacto</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.instagram.com/camiondemadera">Instagram</a>
+              </div>
+              <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.tiktok.com/@camiondemadera">TikTok</a>
+              </div>
+              <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://twitter.com/JeanSeplveda2">Twitter</a>
+            </div>
+          </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <p>Direccion</p>
+            <div class="mb-2">
+              <p class="text-secondary text-decoration-none">Juan Garriga 763</p>
+               </div>
+              <div class="mb-2">
+              <p class="text-secondary text-decoration-none">Copiapo</p>
+              </div>            
+              </div>       
+            </div>    
         </div>
+      </div>
     </footer>
 
 
-    <script> window.addEventListener("scroll", function(){var header = document.getElementById("header");header.classList.toggle("abajo",window.scrollY>0);})</script>
+
+    <script type="text/javascript"> window.addEventListener("scroll", function(){var header = document.getElementById("header");
+    header.classList.toggle("abajo",window.scrollY>0);})</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
