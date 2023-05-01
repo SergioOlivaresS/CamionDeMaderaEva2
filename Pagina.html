@@ -10,47 +10,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  
     <header>
-        <div class="navbar navbar-dark bg-primary" >    
-          <img src="./assets/newlogo.png" id="logo-camion">  
-            <div class="d-flex justify-content-sm-end">
-                <div class="d-flex justify-content-sm-end" id="filas"></div>
-                            <a class="nav-link text-white" href="#somosmenu"><h4>Nosotros</h4></a>
-                            <a class="nav-link text-white" href="#ofrecemos" ><h4>Que Ofrecemos</h4></a>
-                            <a class="nav-link text-white" href="#producto"> <h4>Productos</h4></a>
-                            <a class="nav-link text-white" href="#pedido" ><h4>Pedidos</h4></a>
-                            <a class="nav-link text-white" href="#contacto" ><h4>Contactos</h4></a>       
-            </div>
-        </div>
+      <a href="#" class="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="#somosmenu">Nosotros</a></li>
+          <li><a href="#ofrecemos" >Que Ofrecemos</a></li>
+          <li><a href="#producto">Productos</a></li>
+          <li><a href="#pedido">Pedidos</a></li>
+          <li><a href="#contacto">Contactos</a></li>
+        </ul>
+      </nav>
+     
     </header>    
     </div>
     <main class="container">
         <div class="row"> 
             <div class="col-md-6 text-center mt-5 mb-5">
-                <img src="./assets/somos.png" alt="Nosotros" id="somos-menu">
+                <img src="./assets/somos.png" alt="Nosotros" id="somosmenu">
             </div>
 
-            <div class="col-md-6 text-center my-auto mt-5 mb-6">
+            <div class="col-md-6 text-center my-auto mt-5 mb-5">
                 <h1 class="font-weight-bold">Conocenos</h1>
                 <p>Somos una pequeño emprendimiento que blablablabla.</p> 
             </div>
 
-            <div class="row flex-row-reverse mt-5 mb-6"> 
+            <div class="row flex-row-reverse mt-5 mb-5"> 
                 <div class="col-md-6 text-center">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" allowfullscreen></iframe> 
                   </div>
             </div>
 
-            <div class="col-md-6 text-center my-auto mt-5 mb-6">
-                    <h1 class="font-weight-bold">Que Ofrecemos</h1>
+            <div class="col-md-6 text-center my-auto mt-5 mb-5">
+                    <h1 class="font-weight-bold" id="ofrecemos">Que Ofrecemos</h1>
                     <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p>         
             </div>   
             
            
             <div class=" container mt-5 mb-5">
               <div class="text-center my-auto">
-                    <h1 class="font-weight-bold">Productos</h1>
+                    <h1 class="font-weight-bold" id="producto">Productos</h1>
                     <p>Contamos con una gran cantidad de productos en nuestro catalogo blablalba</p> 
             </div> 
             <div class="container text-center">
@@ -160,7 +162,7 @@
     </footer>
 
 
-
+    <script> window.addEventListener("scroll", function(){var header = document.getElementById("header");header.classList.toggle("abajo",window.scrollY>0);})</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
