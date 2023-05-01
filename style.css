@@ -58,16 +58,28 @@ body{
     height: inherit;
 }
 
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+
+#galeria img{
+    width: 100%;
+    height: 400px;
+}
+
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+
 #logoempresa{
     height: 200px;
     width: 200px;
 }
 
-#img-producto{
-    width: 400px;
-    height: 400px;
-}
-
 #somosmenu{
     width: 750px;
 }
+
+
