@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="bg-dark">
+    <header class="bg-dark mb-5">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
                 <a class="nav-link active" aria-current="page" href="#somosmenu">Conocenos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ofrecemos">Que Ofrecemos</a>
+                <a class="nav-link" aria-current="page" href="#ofrecemos">Que Ofrecemos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#producto">Productos</a>
+                <a class="nav-link" aria-current="page" href="#producto">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pedido">Pedidos</a>
+                <a class="nav-link" aria-current="page" href="#pedido">Pedidos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contactos</a>
+                <a class="nav-link" aria-current="page" href="#contacto">Contactos</a>
               </li>
             </ul>
           </div>
@@ -40,35 +40,40 @@
       </nav>
     </header>    
     </div>
-    <main class="container">
+    <main class="container ">
         <div class="row"> 
             <div class="col-md-7 text-center mt-5 mb-5">
                 <img src="./assets/somos.png" alt="Nosotros" id="somosmenu">
             </div>
 
-            <div class="col-md-5 text-center my-auto mt-5 mb-5">
-                <h1 class="font-weight-bold">Conocenos</h1>
+            <div class="col-md-5 text-center my-auto">
+                <h1 class="display-1 font-weight-bold">Conocenos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus labore nemo consequatur voluptates. Voluptatum unde eligendi iusto nesciunt cumque quo atque odio libero dignissimos error, reprehenderit magni exercitationem consequatur nostrum?.</p> 
             </div>
-
-            <div class="row flex-row-reverse mt-5 mb-5"> 
-                <div class="col-md-6 text-center">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" height="500px" allowfullscreen></iframe> 
-                  </div>
+      
+            <h1 id="ofrecemos">.</h1>
+            <div class="row flex-row-reverse my-auto" > 
+                <div class="col-md-6 text-center my-auto">
+                  <img src="./assets/ofrecemos.png" alt="ofrecemos">
             </div>
-
-            <div class="col-md-6 text-center my-auto mt-5 mb-5">
-                    <h1 class="font-weight-bold" id="ofrecemos">Que Ofrecemos</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa repellendus maxime cum totam, natus blanditiis officiis, quibusdam labore omnis consequatur officia asperiores unde aliquid ut praesentium sed dolorem deleniti molestiae?</p>         
-            </div>   
             
-           
+
+            <div class="col-md-6 text-center my-auto" >
+                    <h1 class="display-1 font-weight-bold" >Que Ofrecemos</h1>
+                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa repellendus maxime cum totam, natus blanditiis officiis, quibusdam labore omnis consequatur officia asperiores unde aliquid ut praesentium sed dolorem deleniti molestiae?</p>    
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="./assets/videotrabajo.mp4" height="400px" allowfullscreen></iframe> 
+                    </div>     
+            </div>  
             <div class=" container mt-5 mb-5">
               <div class="text-center my-auto">
-                    <h1 class="font-weight-bold" id="producto">Productos</h1>
+                <div class="opacity-25">
+                  <h1 id="producto">.</h1>
+                </div>
+                    <h1 class="display-1 font-weight-bold" >Productos</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, suscipit ipsum harum sapiente, eveniet quaerat corrupti reiciendis nesciunt sequi nisi ratione tenetur maxime consequuntur non dignissimos obcaecati provident maiores repudiandae.</p> 
             </div> 
+
             <div class="text-center pt-5" id="galeria">
               <div class="row">
                  <div class="col-lg-4">
@@ -98,26 +103,15 @@
                   <img src="./assets/especial2.png" alt="galeria-imagenes">
                  </div>
                  <div class="col-lg-4">
-                  <img src="./assets/especial3.png" alt="galeria-imagenes">
-                            
+                  <img src="./assets/especial3.png" alt="galeria-imagenes">                
             </div>
 
-
-
-            <!--
-
-            <div class="container text-center">
-            <img src="./assets/Captura de pantalla 2023-05-01 001820.png" alt="" id="img-producto">
-            <img src="./assets/Captura de pantalla 2023-05-01 001828.png" alt="" id="img-producto">
-            <img src="./assets/Captura de pantalla 2023-05-01 001841.png" alt="" id="img-producto">
-            <img src="./assets/Captura de pantalla 2023-05-01 001848.png" alt="" id="img-producto">
+            <div class="opacity-25">
+              <h1 id="pedido">.</h1>
             </div>
-          -->
-
-
             <div class=" container mt-5 mb-5">
             <div class="text-center my-auto">
-            <h1 class="font-weight-bold" id="pedido"> Pedidos</h1>
+            <h1 class=" display-1 font-weight-bold"> Pedidos</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam accusantium impedit assumenda maxime, nam, harum dicta, mollitia natus necessitatibus cupiditate corrupti temporibus. Assumenda sequi nisi magni perspiciatis nesciunt quibusdam nihil..</p>
               </div>
             <div class="container">
