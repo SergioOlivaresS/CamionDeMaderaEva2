@@ -79,10 +79,14 @@ body{
 }
 
 #somosmenu{
-    width: 750px;
+    height: 750px;
+    width: 700px;
 }
 
 #pagos{
     width: 400px;
 }
 
+#img-ofrecemos{
+    width: 640px;
+}
