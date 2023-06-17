@@ -1,17 +1,32 @@
 .container{
-    max-width: 1300px;
+    max-width: 1400px;
 }
 
 header{  
     position: fixed;
     top: 0;
     width: 100%;
-    display: flex;
+    display:flex;
     justify-content: flex-end;
     transition: 1.0s;
-    padding: 10px 10px;
+    padding: 3px 16px;
     z-index: 20;
 }
+
+.content {
+    padding: 16px;
+  } 
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+} 
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
 nav{
     display: flex;
     justify-content: end;
@@ -19,12 +34,12 @@ nav{
 }
 
 header.abajo{
-    background: #e7e6e6;
+    background: #080000;
     padding: 15px 20px;
 }
 
 header.abajo ul li a{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 
@@ -39,23 +54,14 @@ header ul a{
     font-weight: bolder;
     margin: 0 15px;
     text-decoration: none;
-    color: rgb(185, 180, 180);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     font-weight: 600;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
-header.abajo .logo,
 header.abajo ul li a{
-    color: #aaa3a3;
-}
-
-body{
-    background: linear-gradient(320deg, #d4d37c, 
-    #d4b0b0, #d8cee4) ;
-    font-family: 'Dosis',sans-serif;
-    font-display: swap;
-    height: inherit;
+    color: #ffffff;
 }
 
 #galeria .col-lg-4{
@@ -79,7 +85,7 @@ body{
 }
 
 #somosmenu{
-    height: 750px;
+    height: 850px;
     width: 700px;
 }
 
@@ -89,4 +95,55 @@ body{
 
 #img-ofrecemos{
     width: 640px;
+}
+
+.oscuro{
+    background-color: rgba(11, 11, 12, 0.719);
+    color: white;
+}
+.claro{
+    background-color: #d1d3e4;
+    color: black;
+}
+
+header button{
+    float: left;
+}
+
+.small{
+    font-size: 220%;
+}
+.medium{
+    font-size: 150%;
+}
+.large{
+    font-size: 180%;
+}
+
+#navbar{
+    background-color: #d1d3e4; 
+    
+}
+
+#navbar.contraste {
+    background-color: #333;
+    color: #d1d3e4;
+  }
+#footer {
+    background-color: #d1d3e4; 
+  }
+
+#footer.contraste {
+    background-color: #333; 
+    color: #d1d3e4;
+  }
+
+#myHeader{
+    background-color: #d1d3e4;
+    color: #333;
+}
+  
+#myHeader.contraste {
+    background-color: #333; 
+    color: #d1d3e4; 
 }
