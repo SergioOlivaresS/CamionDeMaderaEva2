@@ -80,8 +80,8 @@ header.abajo ul li a{
 }
 
 #logoempresa{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
 }
 
 #somosmenu{
@@ -102,7 +102,7 @@ header.abajo ul li a{
     color: white;
 }
 .claro{
-    background-color: #d1d3e4;
+    background-color: #ededf1;
     color: black;
 }
 
@@ -121,29 +121,33 @@ header button{
 }
 
 #navbar{
-    background-color: #d1d3e4; 
+    background-color: #ededf1; 
     
 }
 
 #navbar.contraste {
     background-color: #333;
-    color: #d1d3e4;
+    color: #ededf1;
   }
 #footer {
-    background-color: #d1d3e4; 
+    background-color: #ededf1; 
   }
 
 #footer.contraste {
     background-color: #333; 
-    color: #d1d3e4;
+    color: #ededf1;
   }
 
 #myHeader{
-    background-color: #d1d3e4;
+    background-color: #ededf1;
     color: #333;
 }
   
 #myHeader.contraste {
     background-color: #333; 
-    color: #d1d3e4; 
+    color: #ededf1; 
 }
+
+abbr {
+    display: inline;
+  }
